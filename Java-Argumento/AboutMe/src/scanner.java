@@ -24,6 +24,7 @@ public class scanner {
         System.out.println("Ola, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos");
         System.out.println("Tenho " + altura + " de altura");
+        scanner.close();
 
 
     }
