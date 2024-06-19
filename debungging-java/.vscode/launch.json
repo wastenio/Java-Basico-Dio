@@ -1,0 +1,31 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "timeout": 30000,
+            "trace": "verbose"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "br.com.dio.debbugging.App",
+            "projectName": "debungging-java_7fd3792f"
+        },
+        {
+            "type": "java",
+            "name": "CalculadoraDeMedias",
+            "request": "launch",
+            "mainClass": "br.com.dio.debbugging.CalculadoraDeMedias",
+            "projectName": "debungging-java_7fd3792f"
+        }
+    ]
+}
